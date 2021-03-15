@@ -1,7 +1,7 @@
 from typing import List
 
 
-def paint_out(x, y, matrix) -> None:
+def paint_out(x: int, y: int, matrix: List[List[int]]) -> None:
     """
     Paint finded isle (Research for others nodes)
     :param x: x coordinate
